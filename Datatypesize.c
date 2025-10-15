@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+{
+    char cvalue='S';
+    int ivalue=11;
+    float fvalue=33.24f; //if we havent mention f at the last then it is treated as double by defalut
+    double dvalue=98.6763674;
+
+    printf("Size of character is: %lu\n",sizeof(cvalue));
+    printf("Size of integer is: %lu\n",sizeof(ivalue));
+    printf("Size of float is: %lu\n",sizeof(fvalue));
+    printf("Size of double is: %lu\n",sizeof(dvalue));
+  
+
+
+    return 0;
+
+}
